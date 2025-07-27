@@ -4,7 +4,7 @@ def get_choices():
     options = ['Rock', 'Paper', 'Scissors']
     p1 = input('Enter a choice (Rock, Paper, Scissors): ').lower()
 
-    # Normalize input
+
     if p1 in ['paper', 'p']:
         p1 = 'Paper'
     elif p1 in ['rock', 'r']:
